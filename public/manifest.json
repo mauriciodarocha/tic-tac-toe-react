@@ -1,0 +1,9 @@
+{
+  "short_name": "Tic Tac Toe",
+  "name": "Tic Tac Toe Game",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

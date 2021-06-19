@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+    app:
+        image: tic_tac_toe
+        build: .
+        container_name: tic-tac-toe
+        command: npm start
+        working_dir: /usr/app/tic-tac-toe
+        volumes:
+            - ./:/usr/app/tic-tac-toe
+            - /usr/app/tic-tac-toe/node_modules
+        expose: 
+            - "3000"
+        ports:
+            - "3000:3000"
+
+
